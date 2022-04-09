@@ -1,0 +1,754 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/ExperienceResponse",
+    "data": [
+        {
+            "type": "inline_header_module",
+            "id": "container",
+            "style": null,
+            "title": "Radio 1's Chillest Show",
+            "description": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+            "data": {
+                "type": "container_item",
+                "id": "b03hjfww",
+                "urn": "urn:bbc:radio:brand:b03hjfww",
+                "tlec_urn": "urn:bbc:radio:brand:b03hjfww",
+                "network": {
+                    "id": "bbc_radio_one",
+                    "key": "radio1",
+                    "short_title": "Radio 1",
+                    "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                },
+                "titles": {
+                    "primary": "Radio 1's Chillest Show",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": {
+                    "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                    "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                    "long": null
+                },
+                "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                "activities": [
+                    {
+                        "type": "follow_activity",
+                        "action": "followed",
+                        "urn": "urn:bbc:radio:brand:b03hjfww"
+                    }
+                ],
+                "uris": [
+                    {
+                        "type": "latest",
+                        "id": null,
+                        "label": "Latest",
+                        "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                    }
+                ],
+                "playable_count": null
+            }
+        },
+        {
+            "type": "inline_display_module",
+            "id": "container_list",
+            "style": null,
+            "title": "Latest Episodes from Radio 1's Chillest Show",
+            "description": null,
+            "state": "ok",
+            "uris": null,
+            "controls": null,
+            "total": 7,
+            "data": [
+                {
+                    "type": "playable_item",
+                    "id": "m0015s68",
+                    "urn": "urn:bbc:radio:episode:m0015s69",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Lola Young Chill Mix",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "South London singer Lola Young picks the music in this week's Chill Mix.",
+                        "medium": "South London singer and Radio 1 Sound of 2022 artist Lola Young picks the music in this week's Chill Mix.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": {
+                        "value": 0,
+                        "label": "120 mins left"
+                    },
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-03T20:01:43Z",
+                        "to": "2022-05-07T17:00:00Z",
+                        "label": "Available for 27 days"
+                    },
+                    "release": {
+                        "date": "2022-04-03T00:00:00Z",
+                        "label": "03 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [
+                        {
+                            "type": "play_activity",
+                            "action": "paused",
+                            "label": null
+                        }
+                    ],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m0015m41",
+                    "urn": "urn:bbc:radio:episode:m0015m42",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Stuart's in for Sian, with Sofia Kourtesis' Chill Mix",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Stuart Sandeman's in for Sian with Peruvian producer Sofia Kourtesis' Chill Mix.",
+                        "medium": "Stuart Sandeman's in for Sian with a re-spin of Peruvian producer Sofia Kourtesis' Chill Mix.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvqyw0.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-27T20:02:13Z",
+                        "to": "2022-05-09T17:00:00Z",
+                        "label": "Available for 29 days"
+                    },
+                    "release": {
+                        "date": "2022-03-27T00:00:00Z",
+                        "label": "27 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m0015cn1",
+                    "urn": "urn:bbc:radio:episode:m0015cn2",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Jordan Rakei Piano Session",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Jordan Rakei performs two exclusive tracks for Radio 1's Piano Sessions.",
+                        "medium": "New Zealand born singer Jordan Rakei performs two exclusive tracks for Radio 1's Piano Sessions. He also joins Sian for a chat whilst on the road with Bonobo!",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": {
+                        "value": 1432,
+                        "label": "96 mins left"
+                    },
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-20T21:02:13Z",
+                        "to": "2022-05-08T17:00:00Z",
+                        "label": "Available for 28 days"
+                    },
+                    "release": {
+                        "date": "2022-03-20T00:00:00Z",
+                        "label": "20 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [
+                        {
+                            "type": "play_activity",
+                            "action": "heartbeat",
+                            "label": null
+                        }
+                    ],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m00153lv",
+                    "urn": "urn:bbc:radio:episode:m00153lw",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Pip Millett Chill Mix",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Mancunian singer-songwriter Pip Millett selects the records in this week's Chill Mix.",
+                        "medium": "Mancunian singer-songwriter Pip Millett selects the records in this week's Chill Mix, featuring a mix of her favourite soul, hip-hop and R&B tracks.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-13T21:01:28Z",
+                        "to": "2022-05-04T17:00:00Z",
+                        "label": "Available for 24 days"
+                    },
+                    "release": {
+                        "date": "2022-03-13T00:00:00Z",
+                        "label": "13 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m0014vv0",
+                    "urn": "urn:bbc:radio:episode:m0014vv1",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Ben Böhmer Chill Mix",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "German producer Ben Böhmer selects the records in this week's Chill Mix.",
+                        "medium": "German producer Ben Böhmer selects the records in this week's Chill Mix.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": {
+                        "value": 1085,
+                        "label": "101 mins left"
+                    },
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-13T18:00:00Z",
+                        "to": "2022-04-27T17:00:00Z",
+                        "label": "Available for 17 days"
+                    },
+                    "release": {
+                        "date": "2022-03-06T00:00:00Z",
+                        "label": "06 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [
+                        {
+                            "type": "play_activity",
+                            "action": "heartbeat",
+                            "label": null
+                        }
+                    ],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m0014m6g",
+                    "urn": "urn:bbc:radio:episode:m0014m6h",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Robert Glasper Chillest Record",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Sian shares a new Chillest Record from pianist Robert Glasper and Yebba.",
+                        "medium": "Sian shares a new Chillest Record from pianist Robert Glasper and Yebba.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": {
+                        "value": 1763,
+                        "label": "90 mins left"
+                    },
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-12T18:00:00Z",
+                        "to": "2022-04-20T18:00:00Z",
+                        "label": "Available for 10 days"
+                    },
+                    "release": {
+                        "date": "2022-02-27T00:00:00Z",
+                        "label": "27 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [
+                        {
+                            "type": "play_activity",
+                            "action": "paused",
+                            "label": null
+                        }
+                    ],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m0014lpg",
+                    "urn": "urn:bbc:radio:episode:m0014lph",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_one/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Chillest Show",
+                        "secondary": "Jordan Stephens Piano Session",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "The Piano Sessions return for 2022 with Jordan Stephens performing 2 live tracks for Sian.",
+                        "medium": "The Piano Sessions return for 2022 with Jordan Stephens performing two live tracks for Sian.",
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bvr3rm.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": {
+                        "value": 4409,
+                        "label": "46 mins left"
+                    },
+                    "container": {
+                        "type": "brand",
+                        "id": "b03hjfww",
+                        "urn": "urn:bbc:radio:brand:b03hjfww",
+                        "title": "Radio 1's Chillest Show",
+                        "synopses": {
+                            "short": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "medium": "Sian Eleri lays down Planet Earth's most soothing musical vibes.",
+                            "long": null
+                        },
+                        "activities": [
+                            {
+                                "type": "follow_activity",
+                                "action": "followed",
+                                "urn": null
+                            }
+                        ]
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-11T18:00:00Z",
+                        "to": "2022-04-13T18:00:00Z",
+                        "label": "Available for 3 days"
+                    },
+                    "release": {
+                        "date": "2022-02-20T00:00:00Z",
+                        "label": "20 Feb 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [
+                        {
+                            "type": "play_activity",
+                            "action": "heartbeat",
+                            "label": null
+                        }
+                    ],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/my/programmes/playable?container=b03hjfww&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                }
+            ],
+            "image_url": null
+        }
+    ]
+}

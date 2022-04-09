@@ -1,0 +1,971 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+    "data": [
+        {
+            "type": "segment_item",
+            "id": "p0bxv98w",
+            "urn": "urn:bbc:radio:segment:music:np6cqc",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Royal Blood",
+                "secondary": "All We Have Is Now (Orchestral Version)",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 11,
+                "end": 163,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/0UQSNKOXq18TbteKSniCc6"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/all-we-have-is-now-orchestral-version/1593918322?i=1593918332"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxv9yg",
+            "urn": "urn:bbc:radio:segment:music:np6v8c",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Conor Albert & Max Pope",
+                "secondary": "Sunflower",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 157,
+                "end": 321,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/6C1u5c21S37nBvyu9d44YN"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/sunflower/1611231377?i=1611231395"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvbln",
+            "urn": "urn:bbc:radio:segment:music:n6fppv",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Sofia Kourtesis",
+                "secondary": "La Perla",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 362,
+                "end": 588,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4pNlEl7y5pT9f9zFy0oxXb"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/la-perla-edit/1549079176?i=1549079177"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvc9x",
+            "urn": "urn:bbc:radio:segment:music:np6v8v",
+            "segment_type": "music",
+            "titles": {
+                "primary": "ROSALÍA",
+                "secondary": "Como Un G",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 677,
+                "end": 937,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/7MDfNYdpdohHjmFsYK44KU"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/como-un-g/1607918350?i=1607918727"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvckz",
+            "urn": "urn:bbc:radio:segment:music:np6v9p",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Barrie",
+                "secondary": "Harp 2",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 929,
+                "end": 1114,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/17qu5XWNJY9rrd6H23MRIP"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/harp-2/1589853108?i=1589853254"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvcx9",
+            "urn": "urn:bbc:radio:segment:music:np6v99",
+            "segment_type": "music",
+            "titles": {
+                "primary": "April",
+                "secondary": "Circles",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 1187,
+                "end": 1414,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/58smuPpyEmyjk1Kn4DO1EQ"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/circles/1613553806?i=1613554271"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvd2v",
+            "urn": "urn:bbc:radio:segment:music:n5wpxb",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Biig Piig",
+                "secondary": "Sunny",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 1462,
+                "end": 1618,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/42AsgO0005lineLVc1aSOL"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/sunny/1472421880?i=1472421882"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvd5t",
+            "urn": "urn:bbc:radio:segment:music:np6f3g",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Beau Diako",
+                "secondary": "Alone (feat. Ego Ella May)",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 1619,
+                "end": 1800,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3Cyp0LHyFXXpm6daHDV6oR"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/alone/1597340599?i=1597340609"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvdb0",
+            "urn": "urn:bbc:radio:segment:music:np6c8q",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Still Woozy & Remi Wolf",
+                "secondary": "Pool",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 1821,
+                "end": 2046,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/pool/1613804464?i=1613804465"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvdrf",
+            "urn": "urn:bbc:radio:segment:music:np65m8",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Rachel Chinouriri",
+                "secondary": "All I Ever Asked",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 2139,
+                "end": 2354,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/2F9DCIJ7ZXHhNkiIlIIOkw"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/all-i-ever-asked/1611164429?i=1611164434"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvf0c",
+            "urn": "urn:bbc:radio:segment:music:npnnb6",
+            "segment_type": "music",
+            "titles": {
+                "primary": "NAO",
+                "secondary": "Little Giants",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 2400,
+                "end": 2638,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/0bzv8hNM6MKZOPX37HwRHt"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/little-giants/1577553294?i=1577553534"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvf6k",
+            "urn": "urn:bbc:radio:segment:music:n4v95m",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Kendrick Lamar",
+                "secondary": "How Much a Dollar Cost",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 2680,
+                "end": 2942,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4tQcyj5488alHT1ZgFduzn"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/how-much-a-dollar-cost-feat-james-fauntleroy-ronald-isley/1440828886?i=1440829759"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvfd3",
+            "urn": "urn:bbc:radio:segment:music:np6vr5",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Mick Jenkins",
+                "secondary": "Rug Burn (feat. serpentwithfeet)",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 2939,
+                "end": 3131,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3o9N2Epk1TxgNlL5uVW6Dy"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/rug-burn-feat-serpentwithfeet/1588805439?i=1588805751"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvfl5",
+            "urn": "urn:bbc:radio:segment:music:np6vr9",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Widowspeak",
+                "secondary": "True Blue",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 3227,
+                "end": 3516,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/7lWw0SM4zTnNMobAe1HfJA"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/true-blue/1599265676?i=1599265948"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvfrj",
+            "urn": "urn:bbc:radio:segment:music:n4gjfp",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Four Tet",
+                "secondary": "Daughter",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 3567,
+                "end": 3812,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4H4p1B3GrZHnh71vgPtHQW"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/daughter/1288517633?i=1288518332"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvgk5",
+            "urn": "urn:bbc:radio:segment:music:n6gqbp",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Arooj Aftab",
+                "secondary": "Mohabbat",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 3812,
+                "end": 4034,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4lcQHckNMeUkM8jx67j28G"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/mohabbat/1558501400?i=1558501401"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvgz8",
+            "urn": "urn:bbc:radio:segment:music:nz5njz",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Bruce Springsteen",
+                "secondary": "Streets of Philadelphia",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4034,
+                "end": 4225,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3fbnbn6A5O5RNb08tlUEgd"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/streets-of-philadelphia/324212067?i=324212499"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvhhx",
+            "urn": "urn:bbc:radio:segment:music:nznqj9",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Billie Holiday",
+                "secondary": "I'll Be Seeing You",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4225,
+                "end": 4431,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4smkJW6uzoHxGReZqqwHS5"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/ill-be-seeing-you/1443140316?i=1443141555"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvhn7",
+            "urn": "urn:bbc:radio:segment:music:n6wm38",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Arcade Fire & Owen Pallett",
+                "secondary": "Song On The Beach",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4431,
+                "end": 4628,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/1hUi0hdMU0C3syYTyRdPub"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/song-on-the-beach/1553022037?i=1553022059"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvhyv",
+            "urn": "urn:bbc:radio:segment:music:n2mmxb",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Aphex Twin",
+                "secondary": "aisatsana",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4788,
+                "end": 4966,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3ESsjKqrj3M79I8sSZieK3"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/aisatsana-102/911319255?i=911319352"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvj44",
+            "urn": "urn:bbc:radio:segment:music:n6wm3v",
+            "segment_type": "music",
+            "titles": {
+                "primary": "DJ Koze & Sophia Kennedy",
+                "secondary": "Drone Me Up, Flashy",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4966,
+                "end": 5187,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/64m3l8g23TetLft4QT65Jw"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/drone-me-up-flashy-feat-sophia-kennedy/1333548730?i=1333550512"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvjc3",
+            "urn": "urn:bbc:radio:segment:music:nzb5mh",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Q Lazzarus",
+                "secondary": "Goodbye Horses",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 5187,
+                "end": 5371,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/7I5eQZFdlPV8LZWH2FeqaW"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/goodbye-horses/1247751578?i=1247752093"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvjpw",
+            "urn": "urn:bbc:radio:segment:music:np6vbq",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Catching Flies",
+                "secondary": "Diamonds",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 5471,
+                "end": 5595,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/297ZF3Zp0VFLY21qZ4bQ6W"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/diamonds/1610406350?i=1610406359"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvk1x",
+            "urn": "urn:bbc:radio:segment:music:n4xw6x",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Bicep",
+                "secondary": "Glue",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 5639,
+                "end": 5810,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/2aJDlirz6v2a4HREki98cP"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/glue/1616175944?i=1616175952"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvk7n",
+            "urn": "urn:bbc:radio:segment:music:np6vc5",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Nils Hoffmann & Julia Church",
+                "secondary": "9 Days",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 5803,
+                "end": 6039,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/9-days-feat-julia-church-mixed/1611590539?i=1611590738"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvknp",
+            "urn": "urn:bbc:radio:segment:music:npzpz2",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Jasper Tygner",
+                "secondary": "That's Too Slow",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 6122,
+                "end": 6402,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/7AtNHY2plqqo6WrY239YUd"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/thats-too-slow/1580972005?i=1580972286"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvkwg",
+            "urn": "urn:bbc:radio:segment:music:n6jd23",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Ajimal",
+                "secondary": "I've Known Your Heart (AVAWAVES Remix)",
+                "tertiary": "Remix Artist: AVAWAVES"
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 6395,
+                "end": 6598,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/ive-known-your-heart-avawaves-remix/1533151735?i=1533151736"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvky6",
+            "urn": "urn:bbc:radio:segment:music:npnmxg",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Overmono",
+                "secondary": "Diamond Cut",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 6599,
+                "end": 6746,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/6iuVUXwvvDCzSSVMrpMQp4"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/diamond-cut/1585101730?i=1585101731"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvl00",
+            "urn": "urn:bbc:radio:segment:music:np6wxh",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Logic1000",
+                "secondary": "Rush",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 6740,
+                "end": 6986,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/2RVbDkUFdnZcQuqHWOgZe1"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/rush/1612111015?i=1612111018"
+                }
+            ]
+        },
+        {
+            "type": "segment_item",
+            "id": "p0bxvl66",
+            "urn": "urn:bbc:radio:segment:music:np64q9",
+            "segment_type": "music",
+            "titles": {
+                "primary": "CRi",
+                "secondary": "Something About It",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 6980,
+                "end": 7205,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/talkin-2-myself-feat-kobe/1440759247?i=1440759523"
+                }
+            ]
+        }
+    ]
+}
