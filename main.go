@@ -18,8 +18,6 @@ func main() {
 
 	url := fmt.Sprintf("https://rms.api.bbc.co.uk/v2/programmes/search/container?q=%s&experience=domestic", url.QueryEscape(searchTerm))
 	searchResults := generated.SoundsProgramSearchResult{}
-
-	fmt.Println(url)
 	err := fetchSoundsResponse(url, &searchResults)
 	if err != nil {
 		panic(err)
@@ -29,8 +27,7 @@ func main() {
 	fmt.Println(programID)
 }
 
-// This doesn't need generics, just rying it out
-func fetchSoundsResponse(url string, response *generated.SoundsProgramSearchResult) error {
+func fetchSoundsResponse(url string, response interface{}) error {
 	resp, err := http.Get(url)
 	if err != nil {
 		return err
