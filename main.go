@@ -12,14 +12,15 @@ import (
 )
 
 func main() {
-	var searchTerm string
+	var searchTerm, playlistID string
 	flag.StringVar(&searchTerm, "show", "", "Enter a search term for the show you wish to sync")
+	flag.StringVar(&playlistID, "playlist", "", "Enter the playlist ID from apple music to sync to")
 	flag.Parse()
 
 	// Search for the program
-	url := fmt.Sprintf("https://rms.api.bbc.co.uk/v2/programmes/search/container?q=%s&experience=domestic", url.QueryEscape(searchTerm))
+	searchUrl := fmt.Sprintf("https://rms.api.bbc.co.uk/v2/programmes/search/container?q=%s&experience=domestic", url.QueryEscape(searchTerm))
 	searchResults := generated.SoundsProgramSearchResult{}
-	err := fetchSoundsResponse(url, &searchResults)
+	err := fetchSoundsResponse(searchUrl, &searchResults)
 	if err != nil {
 		panic(err)
 	}
@@ -36,7 +37,7 @@ func main() {
 		panic(err)
 	}
 
-	tracks := []string{}
+	appleMusicTrackUrls := []string{}
 	// Note: The API json can vary types between struct and arrays for the same field name
 	//       to workaround that we use the `.json.RawResponse` type and index ignore the asymetric item at index 0
 	// First item is usually the display header this has data field as struct
@@ -66,9 +67,29 @@ func main() {
 				}
 
 				fmt.Printf("-- Adding track: %s - %s\n", track.Titles.Primary, track.Titles.Secondary)
-				tracks = append(tracks, musicServiceUrl.Uri)
+				appleMusicTrackUrls = append(appleMusicTrackUrls, musicServiceUrl.Uri)
 			}
 		}
+	}
+
+	// Lets put these into the apple playlist
+	addTracksRequest := ApplePlaylistTracksRequest{
+		Tracks: AppleTracks{
+			Data: []AppleTrack{},
+		},
+	}
+	for _, trackUrl := range appleMusicTrackUrls {
+		parsedUrl, err := url.Parse(trackUrl)
+		if err != nil {
+			panic(err)
+		}
+		parsedQuery, err := url.ParseQuery(parsedUrl.RawQuery)
+		if err != nil {
+			panic(err)
+		}
+		addTracksRequest.Tracks.Data = append(addTracksRequest.Tracks.Data, AppleTrack{
+			ID: parsedQuery["i"][0],
+		})
 	}
 }
 
@@ -84,4 +105,17 @@ func fetchSoundsResponse(url string, response interface{}) error {
 	}
 
 	return json.Unmarshal(rawResponse, response)
+}
+
+type ApplePlaylistTracksRequest struct {
+	Tracks AppleTracks `json:"tracks"`
+}
+
+type AppleTracks struct {
+	Data []AppleTrack `json:"data"`
+}
+
+type AppleTrack struct {
+	ID   string `json:"id"`
+	Type string `json:"type"`
 }
