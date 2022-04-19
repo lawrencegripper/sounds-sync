@@ -1,5 +1,7 @@
 # How will this work?
 
+Swagger API Docs: https://rms.api.bbc.co.uk/docs/
+
 ## Find the show ID
 
 https://rms.api.bbc.co.uk/v2/my/experience/inline/search?q=Chillest%20show

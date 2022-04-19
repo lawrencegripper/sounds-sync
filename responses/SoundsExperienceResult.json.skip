@@ -1,0 +1,488 @@
+{
+    "data": [
+        {
+            "type": "inline_header_module",
+            "id": "container",
+            "style": null,
+            "title": "The Archers Omnibus",
+            "description": "The week's events in Ambridge",
+            "data": {
+                "type": "container_item",
+                "id": "b006qnkc",
+                "urn": "urn:bbc:radio:brand:b006qnkc",
+                "tlec_urn": "urn:bbc:radio:brand:b006qnkc",
+                "network": {
+                    "id": "bbc_radio_four",
+                    "key": "radio4",
+                    "short_title": "Radio 4",
+                    "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                },
+                "titles": {
+                    "primary": "The Archers Omnibus",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": {
+                    "short": "The week's events in Ambridge",
+                    "medium": "The week's events in Ambridge",
+                    "long": null
+                },
+                "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+                "activities": [],
+                "uris": [
+                    {
+                        "type": "latest",
+                        "id": null,
+                        "label": "Latest",
+                        "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                    }
+                ],
+                "playable_count": null
+            }
+        },
+        {
+            "type": "inline_display_module",
+            "id": "container_list",
+            "style": null,
+            "title": "Latest Episodes from The Archers Omnibus",
+            "description": null,
+            "state": "ok",
+            "uris": null,
+            "controls": null,
+            "total": 5,
+            "data": [
+                {
+                    "type": "playable_item",
+                    "id": "p0c13h0g",
+                    "urn": "urn:bbc:radio:episode:m0016grg",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "The Archers Omnibus",
+                        "secondary": "17/04/2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "David receives a surprising offer and Ruairi makes a shocking confession.",
+                        "medium": "David receives a surprising offer and Ruairi makes a shocking confession.",
+                        "long": "Writer, Tim Stimpson\nDirector, Gwenda Hughes\nEditor, Jeremy Howe\n\nAdil Shah ….. Ronny Jhutti\nBen Archer ….. Ben Norris\nBeth Casey ….. Rebecca Fuller\nDavid Archer …… Timothy Bentinck\nElizabeth Pargetter ….. Alison Dowling\nFreddie Pargetter ….. Toby Laurence\nJazzer McCreary ….. Ryan Kelly\nJill Archer ….. Patricia Greene\nJosh Archer ….. Angus Imrie\nKarl …… Robert Glenister\nLeonard Berry ….. Paul Copley\nRuairi Donovan ….. Arthur Hughes\nRuth Archer ….. Felicity Finch\nTracy Horrobin ….. Susie Riddell\nVince Casey ….. Tony Turner"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+                    "duration": {
+                        "value": 3654,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b006qnkc",
+                        "urn": "urn:bbc:radio:brand:b006qnkc",
+                        "title": "The Archers Omnibus",
+                        "synopses": {
+                            "short": "The week's events in Ambridge",
+                            "medium": "The week's events in Ambridge",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0c13h0g.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0c13h0g.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0c13h0g.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-17T09:15:00Z",
+                        "to": "2022-05-17T09:15:00Z",
+                        "label": "Available for 27 days"
+                    },
+                    "release": {
+                        "date": "2022-04-17T00:00:00Z",
+                        "label": "17 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bzms65",
+                    "urn": "urn:bbc:radio:episode:m00168fm",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "The Archers Omnibus",
+                        "secondary": "10/04/2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Alice makes a monumental decision and plans are afoot at Brookfield",
+                        "medium": "Alice makes a monumental decision and plans are afoot at Brookfield",
+                        "long": "Writer, Liz John\nDirector, Peter Leslie Wild\nEditor, Jeremy Howe\n\nAdil Shah ….. Ronny Jhutti\nAlice Carter ….. Hollie Chapman\nBrian Aldridge ….. Charles Collingwood\nChris Carter ….. Wilf Scolding\nClarrie Grundy ….. Heather Bell\nElizabeth Pargetter ….. Alison Dowling\nFreddie Pargetter ….. Toby Laurence\nIan Craig ….. Stephen Kennedy\nJosh Archer ….. Angus Imrie\nPat Archer ….. Patricia Gallimore\nRoisin ….. Cherylee Houston\nRoy Tucker ….. Ian Pepperell\nRuairi Donovan ….. Arthur Hughes\nRuth Archer ….. Felicity Finch\nStella Pryor ….. Lucy Speed\nSusan Carter ….. Charlotte Martin\nTracy Horrobin ….. Susie Riddell\nVince Casey ….. Tony Turner"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+                    "duration": {
+                        "value": 3656,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b006qnkc",
+                        "urn": "urn:bbc:radio:brand:b006qnkc",
+                        "title": "The Archers Omnibus",
+                        "synopses": {
+                            "short": "The week's events in Ambridge",
+                            "medium": "The week's events in Ambridge",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bzms65.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bzms65.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bzms65.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-10T09:15:00Z",
+                        "to": "2022-05-10T09:15:00Z",
+                        "label": "Available for 20 days"
+                    },
+                    "release": {
+                        "date": "2022-04-10T00:00:00Z",
+                        "label": "10 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bxxm2h",
+                    "urn": "urn:bbc:radio:episode:m00161qy",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "The Archers Omnibus",
+                        "secondary": "03/04/2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Alan finds himself caught up in a drama and the verdict is in for Berrow.",
+                        "medium": "Alan finds himself caught up in a drama and the verdict is in for Berrow.",
+                        "long": "Writer, Keri Davies\nDirector, Marina Caldarone\nEditor, Jeremy Howe\n\nAlan Franks ….. John Telfer\nAlice Carter ….. Hollie Chapman\nAmy Franks ….. Jennifer Daley\nBrian Aldridge ….. Charles Collingwood\nChris Carter ….. Wilf Scolding\nFallon Rogers ….. Joanna Van Kampen\nHannah Riley ….. Helen Longworth\nJazzer McCreary ….. Ryan Kelly\nJustin Elliott ….. Simon Williams\nKate Madikane ….. Perdita Avery\nLilian Bellamy ….. Sunny Ormonde\nMartyn Gibson ….. Jon Glover\nNatasha Archer ….. Mali Harries\nNeil Carter ….. Brian Hewlett\nPat Archer ….. Patricia Gallimore\nSusan Carter ….. Charlotte Martin\nTom Archer ….. William Troughton\nTony Archer ….. David Troughton"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+                    "duration": {
+                        "value": 3627,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b006qnkc",
+                        "urn": "urn:bbc:radio:brand:b006qnkc",
+                        "title": "The Archers Omnibus",
+                        "synopses": {
+                            "short": "The week's events in Ambridge",
+                            "medium": "The week's events in Ambridge",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bxxm2h.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bxxm2h.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bxxm2h.mp3",
+                                "file_size": 59000000,
+                                "label": "59 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-04-03T10:15:00Z",
+                        "to": "2022-05-03T10:15:00Z",
+                        "label": "Available for 13 days"
+                    },
+                    "release": {
+                        "date": "2022-04-03T00:00:00Z",
+                        "label": "03 Apr 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0bwtp30",
+                    "urn": "urn:bbc:radio:episode:m0015tp0",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "The Archers Omnibus",
+                        "secondary": "27/03/2022",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Jazzer receives bad news and Alice is stunned by a shocking admission",
+                        "medium": "Jazzer receives bad news and Alice is stunned by a shocking admission",
+                        "long": "Writer, Sarah McDonald-Hughes\nDirector, Rosemary Watts\nEditor, Jeremy Howe\n\nAdam Macy ….. Andrew Wincott\nAlan Franks ….. John Telfer\nAlice Carter ….. Hollie Chapman\nAmy Franks ….. Jennifer Daley\nBeth Casey ….. Rebecca Fuller\nBrian Aldridge ….. Charles Collingwood\nChris Carter ….. Wilf Scolding\nFreddie Pargetter ….. Toby Laurence\nHannah Riley ….. Helen Longworth\nIan Craig ….. Stephen Kennedy\nJazzer McCreary ….. Ryan Kelly\nJustin Elliott ….. Simon Williams\nLily Pargetter ….. Katie Redford\nNeil Carter ….. Brian Hewlett\nRuss Jones ….. Andonis James Anthony\nSusan Carter ….. Charlotte Martin\nTony Archer ….. David Troughton\nTracy Horrobin ….. Susie Riddell\nUsha Franks ….. Souad Faress"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+                    "duration": {
+                        "value": 3624,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b006qnkc",
+                        "urn": "urn:bbc:radio:brand:b006qnkc",
+                        "title": "The Archers Omnibus",
+                        "synopses": {
+                            "short": "The week's events in Ambridge",
+                            "medium": "The week's events in Ambridge",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bwtp30.mp3",
+                                "file_size": 58000000,
+                                "label": "58 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bwtp30.mp3",
+                                "file_size": 58000000,
+                                "label": "58 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0bwtp30.mp3",
+                                "file_size": 58000000,
+                                "label": "58 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2022-03-27T10:00:00Z",
+                        "to": "2022-04-26T10:00:00Z",
+                        "label": "Available for 6 days"
+                    },
+                    "release": {
+                        "date": "2022-03-27T00:00:00Z",
+                        "label": "27 Mar 2022"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p07x385n",
+                    "urn": "urn:bbc:radio:episode:p07x3938",
+                    "network": {
+                        "id": "bbc_radio_four",
+                        "key": "radio4",
+                        "short_title": "Radio 4",
+                        "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+                    },
+                    "titles": {
+                        "primary": "The Archers Omnibus",
+                        "secondary": "Making Mince Pies with Jill Archer",
+                        "tertiary": null
+                    },
+                    "synopses": {
+                        "short": "Join Jill at Brookfield as she bakes a batch of her much-loved mince pies in the Aga",
+                        "medium": null,
+                        "long": null
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p07x1dnb.jpg",
+                    "duration": {
+                        "value": 770,
+                        "label": "12 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b006qnkc",
+                        "urn": "urn:bbc:radio:brand:b006qnkc",
+                        "title": "The Archers Omnibus",
+                        "synopses": {
+                            "short": "The week's events in Ambridge",
+                            "medium": "The week's events in Ambridge",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "non_drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p07x385n.mp3",
+                                "file_size": 13000000,
+                                "label": "13 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p07x385n.mp3",
+                                "file_size": 13000000,
+                                "label": "13 MB"
+                            },
+                            "high": {
+                                "bitrate": 128,
+                                "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p07x385n.mp3",
+                                "file_size": 13000000,
+                                "label": "13 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2019-12-07T18:00:00Z",
+                        "to": null,
+                        "label": "Available for over a year"
+                    },
+                    "release": {
+                        "date": "2019-12-07T00:00:00Z",
+                        "label": "07 Dec 2019"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                }
+            ],
+            "image_url": null
+        }
+    ]
+}
