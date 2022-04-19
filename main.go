@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -12,9 +13,11 @@ import (
 )
 
 func main() {
-	var searchTerm, playlistID string
+	var searchTerm, playlistID, appleBearerToken, appleUserToken string
 	flag.StringVar(&searchTerm, "show", "", "Enter a search term for the show you wish to sync")
-	flag.StringVar(&playlistID, "playlist", "", "Enter the playlist ID from apple music to sync to")
+	flag.StringVar(&playlistID, "apple-playlist", "", "Enter the playlist ID from apple music to sync to")
+	flag.StringVar(&appleBearerToken, "apple-bear-token", "", "The token set as Authorization on requests to music.apple.com")
+	flag.StringVar(&appleUserToken, "apple-user-token", "", "The token set as 'Music-User-Token' on requests to music.apple.com")
 	flag.Parse()
 
 	// Search for the program
@@ -74,9 +77,7 @@ func main() {
 
 	// Lets put these into the apple playlist
 	addTracksRequest := ApplePlaylistTracksRequest{
-		Tracks: AppleTracks{
-			Data: []AppleTrack{},
-		},
+		Data: []AppleTrack{},
 	}
 	for _, trackUrl := range appleMusicTrackUrls {
 		parsedUrl, err := url.Parse(trackUrl)
@@ -87,10 +88,33 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		addTracksRequest.Tracks.Data = append(addTracksRequest.Tracks.Data, AppleTrack{
-			ID: parsedQuery["i"][0],
+		addTracksRequest.Data = append(addTracksRequest.Data, AppleTrack{
+			ID:   parsedQuery["i"][0],
+			Type: "songs",
 		})
 	}
+
+	tracksRequest, err := json.Marshal(addTracksRequest)
+	if err != nil {
+		panic(err)
+	}
+	appleMusicTracksUrl := fmt.Sprintf("https://api.music.apple.com/v1/me/library/playlists/%s/tracks", playlistID)
+	appleRequest, err := http.NewRequest("POST", appleMusicTracksUrl, bytes.NewBuffer(tracksRequest))
+	if err != nil {
+		panic(err)
+	}
+	httpClient := http.Client{}
+	appleRequest.Header.Add("Accept", "application/json")
+	appleRequest.Header.Add("Origin", "https://music.apple.com")
+	appleRequest.Header.Add("Host", "amp-api.music.apple.com")
+	appleRequest.Header.Add("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0")
+	appleRequest.Header.Add("Content-Type", "application/json")
+	appleRequest.Header.Add("Authorization", appleBearerToken)
+	appleRequest.Header.Add("Music-User-Token", appleUserToken)
+	appleResp, err := httpClient.Do(appleRequest)
+	resBody, _ := ioutil.ReadAll(appleResp.Body)
+	fmt.Println(string(resBody))
+	fmt.Printf("%+v", appleResp)
 }
 
 func fetchSoundsResponse(url string, response interface{}) error {
@@ -108,10 +132,6 @@ func fetchSoundsResponse(url string, response interface{}) error {
 }
 
 type ApplePlaylistTracksRequest struct {
-	Tracks AppleTracks `json:"tracks"`
-}
-
-type AppleTracks struct {
 	Data []AppleTrack `json:"data"`
 }
 
