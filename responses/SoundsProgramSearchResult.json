@@ -1,0 +1,68 @@
+{
+    "data": [
+      {
+        "type": "container_item",
+        "id": "b006qpgr",
+        "urn": "urn:bbc:radio:brand:b006qpgr",
+        "network": {
+          "id": "bbc_radio_four",
+          "key": "radio4",
+          "short_title": "Radio 4",
+          "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+        },
+        "titles": {
+          "primary": "The Archers",
+          "secondary": null,
+          "tertiary": null
+        },
+        "synopses": {
+          "short": "A contemporary drama in a rural setting.",
+          "medium": "A contemporary drama in a rural setting.",
+          "long": null
+        },
+        "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzj12m.jpg",
+        "activities": [],
+        "uris": [
+          {
+            "type": "latest",
+            "id": null,
+            "label": "Latest",
+            "uri": "/v2/programmes/playable?container=b006qpgr&sort=sequential&type=episode&experience=domestic"
+          }
+        ],
+        "tlec_urn": "urn:bbc:radio:brand:b006qpgr"
+      },
+      {
+        "type": "container_item",
+        "id": "b006qnkc",
+        "urn": "urn:bbc:radio:brand:b006qnkc",
+        "network": {
+          "id": "bbc_radio_four",
+          "key": "radio4",
+          "short_title": "Radio 4",
+          "logo_url": "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_radio_four/{type}_{size}.{format}"
+        },
+        "titles": {
+          "primary": "The Archers Omnibus",
+          "secondary": null,
+          "tertiary": null
+        },
+        "synopses": {
+          "short": "The week's events in Ambridge",
+          "medium": "The week's events in Ambridge",
+          "long": null
+        },
+        "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzfy4l.jpg",
+        "activities": [],
+        "uris": [
+          {
+            "type": "latest",
+            "id": null,
+            "label": "Latest",
+            "uri": "/v2/programmes/playable?container=b006qnkc&sort=sequential&type=episode&experience=domestic"
+          }
+        ],
+        "tlec_urn": "urn:bbc:radio:brand:b006qnkc"
+      }
+    ]
+  }
