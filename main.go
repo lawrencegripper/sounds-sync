@@ -25,8 +25,8 @@ func main() {
 		panic(err)
 	}
 
-	programId := searchResults.Data[0].Id
-	fmt.Println(programId)
+	programID := searchResults.Data[0].Id
+	fmt.Println(programID)
 }
 
 // This doesn't need generics, just rying it out
