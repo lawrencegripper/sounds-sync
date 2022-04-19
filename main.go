@@ -16,7 +16,7 @@ func main() {
 	var searchTerm, playlistID, appleBearerToken, appleUserToken string
 	flag.StringVar(&searchTerm, "show", "", "Enter a search term for the show you wish to sync")
 	flag.StringVar(&playlistID, "apple-playlist", "", "Enter the playlist ID from apple music to sync to")
-	flag.StringVar(&appleBearerToken, "apple-bear-token", "", "The token set as Authorization on requests to music.apple.com")
+	flag.StringVar(&appleBearerToken, "apple-bearer-token", "", "The token set as Authorization on requests to music.apple.com")
 	flag.StringVar(&appleUserToken, "apple-user-token", "", "The token set as 'Music-User-Token' on requests to music.apple.com")
 	flag.Parse()
 
