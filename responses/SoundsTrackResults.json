@@ -1,5 +1,4 @@
 {
-    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
     "data": [
         {
             "type": "segment_item",

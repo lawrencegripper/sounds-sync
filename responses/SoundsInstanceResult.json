@@ -1,5 +1,4 @@
 {
-    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/ExperienceResponse",
     "data": [
         {
             "type": "inline_header_module",
