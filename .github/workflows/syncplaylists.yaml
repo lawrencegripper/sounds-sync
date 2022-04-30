@@ -12,3 +12,6 @@ jobs:
         with:
           fetch-depth: 0
       - run: sudo -E make devcontainer-run-sync
+        env:
+          APPLE_BEARER_TOKEN: ${{ secrets.APPLE_BEARER_TOKEN }}
+          APPLE_USER_TOKEN: ${{ secrets.APPLE_USER_TOKEN }}
