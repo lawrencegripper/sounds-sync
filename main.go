@@ -98,8 +98,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	appleMusicTracksUrl := fmt.Sprintf("https://api.music.apple.com/v1/me/library/playlists/%s/tracks", playlistID)
-	appleRequest, err := http.NewRequest("POST", appleMusicTracksUrl, bytes.NewBuffer(tracksRequest))
+	appleMusicTracksUrl := fmt.Sprintf("https://amp-api.music.apple.com/v1/me/library/playlists/%s/tracks", playlistID)
+	appleRequest, err := http.NewRequest("PUT", appleMusicTracksUrl, bytes.NewBuffer(tracksRequest))
 	if err != nil {
 		panic(err)
 	}
