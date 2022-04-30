@@ -112,9 +112,13 @@ func main() {
 	appleRequest.Header.Add("Authorization", appleBearerToken)
 	appleRequest.Header.Add("Music-User-Token", appleUserToken)
 	appleResp, err := httpClient.Do(appleRequest)
-	resBody, _ := ioutil.ReadAll(appleResp.Body)
-	fmt.Println(string(resBody))
-	fmt.Printf("%+v", appleResp)
+
+	fmt.Println("Syncing to apple music")
+	fmt.Println("Response status:", appleResp.Status)
+
+	if appleResp.StatusCode != 204 {
+		panic("Failed to sync")
+	}
 }
 
 func fetchSoundsResponse(url string, response interface{}) error {
