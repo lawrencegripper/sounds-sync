@@ -5,7 +5,10 @@ on:
   schedule:
     - cron: '0 0 * * *'  # every day at midnight
 jobs:
-  check-bats-version:
+  sync:
     runs-on: ubuntu-20.04
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - run: sudo -E make devcontainer-run-sync
