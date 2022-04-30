@@ -1,6 +1,6 @@
 # Sync BBC Sounds track listing to Apple Music
 
-todo
+Given a BBC Sounds Radio show this utility finds the tracks and syncs them to an Apple Music Playlist
 
 ## Dev
 
