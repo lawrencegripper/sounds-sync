@@ -1,4 +1,4 @@
-include .env
+-include .env
 DEV_CONTAINER_TAG:=ghcr.io/lawrencegripper/sounds-sync/devcontainer:latest
 
 build:
